@@ -1,12 +1,12 @@
 import { makeArticle } from "./index.js";
-import goalImage1 from "./content/Goals.jpeg";
-import workImage from "./content/WorkImage.jpeg";
-import rewardImage from "./content/Rewards.jpeg";
-import PLTWImage from "./content/PLTW.jpeg";
+import goalImage1 from "./content/Goals.jpg";
+import workImage from "./content/WorkImage.jpg";
+import rewardImage from "./content/Rewards.jpg";
+import PLTWImage from "./content/PLTW.jpg";
 import LogoImage from "./content/Logo.png";
 import AppVideo from "./content/app.mp4";
 import ECGImage from "./content/ECGNET.png";
-import Image2048 from "./content/2048.jpeg";
+import Image2048 from "./content/2048.jpg";
 import pkmnImage from "./content/pkmnCode.png";
 export const GoalData =     makeArticle("Goals", "Self Improvement", 
                             "I think becoming a successful person is much more than simply achieving success. I always prioritize \
