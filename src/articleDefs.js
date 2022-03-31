@@ -7,7 +7,6 @@ import LogoImage from "./content/Logo.png";
 import AppVideo from "./content/app.mp4";
 import ECGImage from "./content/ECGNET.png";
 import Image2048 from "./content/2048.jpeg";
-import Vid2048 from "./content/2048.mp4";
 import pkmnImage from "./content/pkmnCode.png";
 export const GoalData =     makeArticle("Goals", "Self Improvement", 
                             "I think becoming a successful person is much more than simply achieving success. I always prioritize \
