@@ -4,7 +4,7 @@ import workImage from "./content/WorkImage.jpg";
 import rewardImage from "./content/Rewards.jpg";
 import PLTWImage from "./content/PLTW.jpg";
 import LogoImage from "./content/Logo.png";
-import AppVideo from "./content/app.mp4";
+import AppVideo from "./content/app.MP4";
 import ECGImage from "./content/ECGNET.png";
 import Image2048 from "./content/2048.jpg";
 import pkmnImage from "./content/pkmnCode.png";
