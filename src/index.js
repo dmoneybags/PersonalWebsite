@@ -113,7 +113,7 @@ class NavBar extends React.Component {
             Work Experience
           </Link>
         <div className="navbar-item has-dropdown is-hoverable">
-          <a className="navbar-link" href="https://bulma.io/documentation/overview/start/">
+          <a className="navbar-link">
             Extracurriculars
           </a>
         <div className="navbar-dropdown is-boxed">
@@ -126,7 +126,7 @@ class NavBar extends React.Component {
         </div>
       </div>
       <div className="navbar-item has-dropdown is-hoverable">
-        <a className="navbar-link" href="https://bulma.io/documentation/overview/start/">
+        <a className="navbar-link">
           Personal Projects
         </a>
         <div className="navbar-dropdown is-boxed">
