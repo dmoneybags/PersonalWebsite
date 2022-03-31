@@ -1,5 +1,6 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css);
 body {
-  margin: 0;
+  height: 100%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +11,112 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@keyframes scrollUP {
+  0% { transform: translate(-50%, -3em); }
+  100% { transform: translate(-50%, -50%); }
+}
+
+@-webkit-keyframes scrollUP {
+  0% { transform: translate(-50%, -3em); }
+  100% { transform: translate(-50%, -50%); }
+}
+@keyframes scrollRight {
+  0% { transform: translate(3em);}
+  100% { transform: translate(0); }
+}
+
+@-webkit-keyframes scrollRight {
+  0% { transform: translate(3em);}
+  100% { transform: translate(0);}
+}
+
+.Sidebar {
+  width:  20%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  float: left;
+  background-color: rgb(50, 40, 164);
+  position: fixed;
+  overflow: scroll;
+  padding: 0; 
+  margin: 0;
+}
+.Socials {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  min-width: 15%;
+  margin: auto;
+  display: flex;
+}
+.MainScollbar {
+  top: 0;
+  right: 0;
+  width:  80%;
+  float: right;
+  position: absolute;
+  text-align: center;
+}
+.Title {
+  color: white;
+  font-size: 4vw;
+  padding: 20px;
+}
+.AnimatedTextUp {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  font-size: 8vw;
+  font-weight: bold;
+  margin: auto;
+  color: white;
+  font-style: italic;
+  -webkit-animation: scrollUP;
+  animation: scrollUP;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+}
+.AnimatedTextSide {
+  position: relative;
+  font-size: 4vw;
+  font-weight: bold;
+  margin: auto;
+  color: black;
+  -webkit-animation: scrollRight;
+  animation: scrollRight;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+}
+.Caption {
+  color: grey;
+  font-style: italic;
+}
+.TextBoxInner {
+  text-align: left;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.TextBoxImage {
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.Content {
+  position: absolute;
+  padding-top: 4em;
+}
+@media only screen and (max-width: 80em) {
+  .Sidebar {
+    display: none;
+  }
+  .MainScollbar{
+    width: 100%;
+  }
+}
+#Overview {
+  z-index: 3;
 }
