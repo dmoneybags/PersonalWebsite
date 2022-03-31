@@ -27,7 +27,7 @@ export class ExtracurricularArticle extends React.Component {
         const articleJSx = (
             <section className = "Extracirricular-Article">
                 <div>
-                    <img src = {article.image1} style = {{width: '60%', padding: 20}}></img>
+                    <img src = {article.image1} style = {{width: '60%', padding: 20}} alt = ""></img>
                     <p className='Caption'>{article.image1caption}</p>
                 </div>
                 <h1 className='AnimatedTextSide'>{article.header}</h1>
